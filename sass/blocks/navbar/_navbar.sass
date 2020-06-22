@@ -1,0 +1,28 @@
+.navbar
+    &__list  
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__hamburger
+        display: none
+        .h-line
+            border-bottom: 3px solid #ffffff
+            width: 25px
+            margin-bottom: 5px  
+            display: block
+    &__item
+        display: inline-block
+        a
+            color: $menu-color-text
+            font-size: $menu-color-size
+            text-decoration: none
+            text-transform: uppercase
+@media (max-width: 768px)
+    .navbar
+        display: flex
+        justify-content: flex-end
+        &__hamburger
+            display: block
+            align-self: end
+        &__list 
+            display: none
