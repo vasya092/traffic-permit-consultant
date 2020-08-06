@@ -2,12 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 * 
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif
 
 h1,h2
-    font-family: 'DM Serif Display', serif;
+    font-family: 'DM Serif Display', serif
 h1
     font-size: $h1-size
     color: $white-text
     font-weight: 300
     line-height: 1
+
+@mixin subTitle
+    font-size: $h2-size
+    color: $h2-color
+    text-transform: uppercase
+    margin-bottom: 40px
+    font-weight: bold
+    letter-spacing: 0.1em
+
+@mixin normalText
+    font-size: $regular-size
+    font-color: $regular-color
+    line-height: 40px
+    font-weight: 300
