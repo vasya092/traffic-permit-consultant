@@ -4,7 +4,7 @@
   font-family: 'Rubik', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'DM Serif Display', serif;
 }
 
@@ -147,7 +147,7 @@ h1 {
 }
 
 .hero {
-  background: url(../img/hero/hero-bg-2.jpg);
+  background: url(../img/hero/hero-bg-2.svg);
   height: 1194px;
   background-repeat: no-repeat;
   margin-top: -113px;
@@ -216,6 +216,22 @@ h1 {
   }
 }
 
+.sub-title {
+  font-size: 24px;
+  color: #EE4D47;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.main-title {
+  font-size: 48px;
+  color: #402B2B;
+  font-weight: normal;
+  line-height: 1.4em;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -226,15 +242,6 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 80px;
-}
-
-.about__title {
-  font-size: 24px;
-  color: #EE4D47;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-  font-weight: bold;
-  letter-spacing: 0.1em;
 }
 
 .about__text {
@@ -322,15 +329,6 @@ h1 {
   margin-top: 80px;
 }
 
-.how-block__title {
-  font-size: 24px;
-  color: #EE4D47;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-}
-
 .how-block__text {
   width: 50%;
   font-size: 18px;
@@ -390,6 +388,10 @@ h1 {
   .how-block__image img {
     width: 300px;
   }
+}
+
+.faq__title {
+  max-width: 500px;
 }
 
 .faq-item {
@@ -500,5 +502,6 @@ h1 {
 body {
   padding: 0;
   margin: 0;
+  background-color: #FEF8F5;
 }
 /*# sourceMappingURL=style.css.map */
